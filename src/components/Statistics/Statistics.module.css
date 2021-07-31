@@ -1,0 +1,11 @@
+p {
+  margin-left: 15px;
+}
+
+p:not(:last-child) {
+  margin-bottom: 4px;
+}
+
+p:nth-last-child(-n + 2) {
+  font-weight: 700;
+}
