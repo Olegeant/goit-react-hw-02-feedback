@@ -12,7 +12,7 @@ class App extends Component {
     bad: 0,
   };
 
-  POSITIVE = ['good', 'neutral'];
+  POSITIVE = ['good'];
 
   state = this.INITIAL_STATE;
 
@@ -60,7 +60,7 @@ class App extends Component {
               positivePercentage={positive}
             />
           ) : (
-            <Notification message="No feedback given"></Notification>
+            <Notification message="No feedback given" />
           )}
         </Section>
       </>
